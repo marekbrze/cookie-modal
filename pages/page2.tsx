@@ -2,13 +2,13 @@ import type { NextPage } from "next";
 
 import Link from "next/link";
 
-const Home: NextPage = () => {
+const Page2: NextPage = () => {
   return (
     <div>
       <main>
-        <h1>This is homepage</h1>
+        <h1>This is a second page</h1>
         <p>
-          <Link href={"/page2"}>Go to page 2</Link>
+          <Link href={"/"}>Go to homepage</Link>
         </p>
         <p>
           <Link href={"/privacy-policy"}>Go to privacy policy</Link>
@@ -18,4 +18,4 @@ const Home: NextPage = () => {
   );
 };
 
-export default Home;
+export default Page2;
